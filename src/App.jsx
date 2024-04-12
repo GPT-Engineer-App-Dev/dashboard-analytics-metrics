@@ -18,6 +18,9 @@ function App() {
               <li>Add Document</li>
             </ul>
           </div>
+          <a href="/settings" className="ml-4">
+            Settings
+          </a>
         </div>
         <div className="flex-none">
           <div className="dropdown dropdown-end">
