@@ -47,10 +47,9 @@ function App() {
           {}
           <div className="card bg-base-100 shadow-xl">
             <div className="card-body">
-              <h2 className="card-title">Revenue Metrics</h2>
-              <p>Monthly Recurring Revenue (MRR): $50,000</p>
-              <p>Expenses: $20,000</p>
-              <p>Profit Margin: 60%</p>
+              <h2 className="card-title">Monthly Recurring Revenue</h2>
+              <p className="text-3xl font-bold">$85,000</p>
+              <p className="text-sm text-gray-500">In the last 30 days</p>
             </div>
           </div>
 
@@ -59,27 +58,17 @@ function App() {
           <div className="card bg-base-100 shadow-xl">
             <div className="card-body">
               <h2 className="card-title">Total Users</h2>
-              <p className="text-3xl font-bold">5,250</p>
-              <div className="flex items-center">
-                <span className="text-green-500 text-sm font-semibold">+250 this week</span>
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-green-500 ml-1" viewBox="0 0 20 20" fill="currentColor">
-                  <path fillRule="evenodd" d="M5.293 9.707a1 1 0 010-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 01-1.414 1.414L11 7.414V15a1 1 0 11-2 0V7.414L6.707 9.707a1 1 0 01-1.414 0z" clipRule="evenodd" />
-                </svg>
-              </div>
+              <p className="text-3xl font-bold">12,500</p>
+              <p className="text-sm text-gray-500">Current total</p>
             </div>
           </div>
 
           {}
           <div className="card bg-base-100 shadow-xl">
             <div className="card-body">
-              <h2 className="card-title">User Churn</h2>
-              <p className="text-3xl font-bold">4.5%</p>
-              <div className="flex items-center">
-                <span className="text-red-500 text-sm font-semibold">+0.5% this month</span>
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-red-500 ml-1" viewBox="0 0 20 20" fill="currentColor">
-                  <path fillRule="evenodd" d="M14.707 10.293a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 111.414-1.414L9 12.586V5a1 1 0 012 0v7.586l2.293-2.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-              </div>
+              <h2 className="card-title">User Churn Rate</h2>
+              <p className="text-3xl font-bold">3.2%</p>
+              <p className="text-sm text-gray-500">In the last 30 days</p>
             </div>
           </div>
         </div>
